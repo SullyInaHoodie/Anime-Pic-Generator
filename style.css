@@ -1,6 +1,4 @@
-
-
-body{
+body {
     margin: 0;
     background: linear-gradient(to right, purple, hotpink);
     display: flex;
@@ -8,11 +6,9 @@ body{
     justify-content: center;
     align-items: center;
     font-family: monospace;
-
 }
 
-
-.container{
+.container {
     background: aliceblue;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0, 0.3);
@@ -22,14 +18,14 @@ body{
     margin: 5px;
 }
 
-.anime-img{
+.anime-img {
     height: 300px;
     width: 300px;
     border-radius: 50%;
     border: 3px solid hotpink;
 }
 
-.btn{
+.btn {
     color: aliceblue;
     background-color: lightpink;
     padding: 10px 30px;
@@ -39,22 +35,21 @@ body{
     cursor: pointer;
 }
 
-.btn:disabled{
+.btn:disabled {
     background-color: grey;
     cursor: not-allowed;
 }
 
-.anime-name{
-margin: 20px;
-background-color: lightpink;
-color: aliceblue;
-padding: 10px;
-border-radius: 6px;
-font-size: 17px;
-font-weight: 600;
+.anime-name {
+    margin: 20px;
+    background-color: lightpink;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
 }
 
-.anime-Container{
+.anime-Container {
     display: none;
 }
-
